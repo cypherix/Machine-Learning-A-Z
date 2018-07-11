@@ -31,7 +31,7 @@ for n in range(0, N):
    else:
       number_of_zeros[ad] = number_of_zeros[ad] + 1
    total_reward = total_reward + reward
-   
+
 plt.hist(ads_selected)
 plt.title('Histogram of ads selections')
 plt.xlabel('Ads')
